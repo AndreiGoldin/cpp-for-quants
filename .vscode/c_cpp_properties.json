@@ -3,7 +3,8 @@
         {
             "name": "Mac",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "/Users/andreigoldin/.cpplibs/eigen-3.4.0/**"
             ],
             "defines": [],
             "macFrameworkPath": [],

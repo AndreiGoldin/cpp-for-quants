@@ -8,6 +8,8 @@
                 "-std=c++17",
                 "-stdlib=libc++",
                 "-fdiagnostics-color=always",
+                "-I",
+                "/Users/andreigoldin/.cpplibs/eigen-3.4.0/",
                 "-g",
                 "${file}",
                 "-o",
