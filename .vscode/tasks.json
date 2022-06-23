@@ -11,7 +11,10 @@
                 "-I",
                 "/Users/andreigoldin/.cpplibs/eigen-3.4.0/",
                 "-g",
+                // "${fileDirname}/*.cpp",
                 "${file}",
+                "payoff.cpp",
+                "asian.cpp",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
